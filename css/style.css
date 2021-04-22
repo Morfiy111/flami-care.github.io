@@ -252,7 +252,7 @@ p {
 }
 #page-header #page-main-nav ul {
   padding: 0;
-  margin: 4px 0 0 0;
+  margin: 15px 0 0 0;
 }
 #page-header #page-main-nav ul li {
   padding: 0;
@@ -506,16 +506,13 @@ p {
 #page-about h2 {
   color: #fff;
 }
-#page-about .page-text {
-  padding-left: 4em;
-}
 @media screen and (max-width: 992px) {
   #page-about .page-text {
     padding: 0 0 20px 0;
   }
 }
 #page-about .page-text .page-meta {
-  color: rgba(255, 255, 255, 0.2);
+  color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
   font-size: 12px;
@@ -532,26 +529,6 @@ p {
   #page-about .page-text.with-plus {
     padding-right: 0;
   }
-}
-#page-about .page-text.with-plus:after {
-  position: absolute;
-  right: 0;
-  margin-right: -30px;
-  top: 50%;
-  margin-top: -25px;
-  font-family: 'icomoon';
-  speak: none;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  content: "\e114";
-  font-size: 50px;
-  color: #f9ad81;
 }
 @media screen and (max-width: 992px) {
   #page-about .page-text.with-plus:after {
@@ -898,6 +875,9 @@ p {
   text-align: right;
   font-size: 12px;
   padding-right: 15px;
+}
+.product-block img {
+  width: 100%;
 }
 @media (max-width: 991px) and (min-width: 768px) {
   #page-header #page-main-nav {
