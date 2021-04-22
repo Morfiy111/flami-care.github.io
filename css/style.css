@@ -254,6 +254,9 @@ p {
   padding: 0;
   margin: 15px 0 0 0;
 }
+.page-white {
+  color: #fff;
+}
 #page-header #page-main-nav ul li {
   padding: 0;
   margin: 0;
