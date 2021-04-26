@@ -508,10 +508,19 @@ p {
 }
 #page-about h2 {
   color: #fff;
+  height: 66px;
+}
+@media screen and (max-width: 1199px) {
+  #page-about h2 {
+    height: 96px;
+  }
 }
 @media screen and (max-width: 992px) {
   #page-about .page-text {
     padding: 0 0 20px 0;
+  }
+  #page-about h2 {
+    height: auto;
   }
 }
 #page-about .page-text .page-meta {
