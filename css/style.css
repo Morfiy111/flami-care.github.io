@@ -317,7 +317,6 @@ p {
  */
 #page-home {
   min-height: 700px;
-  background: #fff url(../images/loader.gif) no-repeat center center;
 }
 #page-home .flexslider {
   border: none;
