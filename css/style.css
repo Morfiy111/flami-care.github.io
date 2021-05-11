@@ -18,7 +18,7 @@ body {
   background: #f7f7f7;
 }
 #header-logo img {
-  width: 140px;
+  width: 180px;
 }
 body.page-overflow {
   overflow-x: auto;
@@ -249,7 +249,7 @@ p {
 }
 #page-header #page-main-nav ul {
   padding: 0;
-  margin: 15px 0 0 0;
+  margin: 20px 0 0 0;
 }
 .page-white {
   color: #fff;
@@ -273,6 +273,7 @@ p {
 #page-header #page-main-nav ul li.active a {
   color: #fff;
   border-bottom: 2px solid #00adef;
+  font-size: 22px;
 }
 #page-header.navbar-fixed-top {
   position: fixed !important;
@@ -356,7 +357,7 @@ p {
 }
 #page-home .flexslider .page-text .page-go a {
   font-family: "Roboto", sans-serif;
-  font-size: 13px;
+  font-size: 20px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #fff;
@@ -511,14 +512,20 @@ p {
   #page-about h2 {
     height: 96px;
   }
+  #header-logo img {
+    width: 150px;
+  }
+  #page-header #page-main-nav ul {
+    margin: 15px 0 0 0;
+  }
 }
 @media screen and (max-width: 992px) {
-  #page-about .page-text {
-    padding: 0 0 20px 0;
-  }
   #page-about h2 {
     height: auto;
   }
+  #page-header #page-main-nav ul {
+    margin: 5px 0 0 0;
+}
 }
 #page-about .page-text .page-meta {
   color: #fff;
