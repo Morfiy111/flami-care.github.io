@@ -238,9 +238,6 @@ p {
 #page-header #page-main-nav {
   float: right;
 }
-#page-contact {
-  background-image: url('../images/background.png');
-}
 .container .back-image-pic {
   background: #f7f7f7;
   font-weight: bold;
@@ -487,6 +484,7 @@ p {
 #page-testimony,
 #page-content {
   padding: 7em 0;
+  background-image: url(../images/background.png)
 }
 @media screen and (max-width: 768px) {
   #page-portfolio,
