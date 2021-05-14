@@ -361,6 +361,9 @@ p {
   margin-top: 30px;
   text-align: center;
 }
+.page-text .text-center {
+  text-align: center;
+}
 #page-home .flexslider .page-text .page-go a {
   font-family: "Roboto", sans-serif;
   font-size: 20px;
