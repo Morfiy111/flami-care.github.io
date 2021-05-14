@@ -86,7 +86,12 @@ p {
   box-shadow: none !important;
   outline: none !important;
 }
-
+.text-center {
+  text-align: justify;
+}
+.text-center h2, .text-center h3 {
+  text-align: center;
+}
 .btn-primary {
   background: #f9ad81;
   color: #fff;
@@ -354,6 +359,7 @@ p {
 }
 #page-home .flexslider .page-text .page-go {
   margin-top: 30px;
+  text-align: center;
 }
 #page-home .flexslider .page-text .page-go a {
   font-family: "Roboto", sans-serif;
