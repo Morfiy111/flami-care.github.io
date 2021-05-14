@@ -895,6 +895,9 @@ p {
 .product-block img {
   width: 100%;
 }
+.main-sub-title {
+  color: #fff;
+}
 @media (max-width: 991px) and (min-width: 768px) {
   #page-header #page-main-nav {
     float: none;
