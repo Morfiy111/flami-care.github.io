@@ -484,7 +484,7 @@ p {
 #page-contact,
 #page-testimony,
 #page-content {
-  padding: 7em 0;
+  padding: 3em 0;
   background-image: url(../images/background.png)
 }
 @media screen and (max-width: 768px) {
@@ -502,11 +502,14 @@ p {
 }
 
 #page-about {
-  background: #444853;
+  background: #7a7d85;
+}
+#page-about h3 {
+  color: #fff;
+  height: 66px;
 }
 #page-about h2 {
   color: #fff;
-  height: 66px;
 }
 @media screen and (max-width: 1199px) {
   #page-about h2 {
@@ -525,7 +528,7 @@ p {
   }
   #page-header #page-main-nav ul {
     margin: 5px 0 0 0;
-}
+  }
 }
 #page-about .page-text .page-meta {
   color: #fff;
@@ -771,7 +774,7 @@ p {
 }
 
 .section-heading .page-section-title {
-  font-size: 18px;
+  font-size: 30px;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #6d247b;
@@ -924,7 +927,7 @@ p {
 }
 
 .r-pb {
-  padding-bottom: 40px;
+  padding-bottom: 20px;
 }
 .footer-contact {
   text-align: right;
