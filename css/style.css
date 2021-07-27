@@ -947,6 +947,22 @@ p {
 .main-sub-title {
   color: #fff;
 }
+.advantages-block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.advantages-item {
+  text-align: center;
+  width: 32%;
+  margin-bottom: 30px;
+}
+.advantages-item-img {
+  margin-bottom: 20px;
+}
+.advantages-item-text h3 {
+  height: 52px;
+}
 @media (max-width: 991px) and (min-width: 768px) {
   #page-header #page-main-nav {
     float: none;
@@ -978,6 +994,12 @@ p {
   }
   .carousel-blockquote blockquote {
     font-size: 24px;
+  }
+  .advantages-item {
+    width: 48%;
+  }
+  .advantages-item-text h3 {
+    font-size: 20px;
   }
 }
 
