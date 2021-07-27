@@ -492,7 +492,8 @@ p {
 #page-about,
 #page-contact,
 #page-testimony,
-#page-content {
+#page-content,
+#page-advantages {
   padding: 3em 0;
   background-image: url(../images/background.png)
 }
@@ -505,13 +506,15 @@ p {
     padding: 4em 0;
   }
 }
-
+.max-width-image {
+  width: 100%;
+}
 #page-content figure {
   margin-bottom: 30px;
 }
 
 #page-about {
-  background: #7a7d85;
+  background: #00adef;
 }
 #page-about h3 {
   color: #fff;
